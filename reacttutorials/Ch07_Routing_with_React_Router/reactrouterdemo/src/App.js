@@ -1,23 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-
+import RouteDemoFn from './RouteDemoFn';
+//https://www.digitalocean.com/community/tutorials/how-to-handle-routing-in-react-apps-with-react-router#step-1-installing-react-router
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <RouteDemoFn />
     </div>
   );
 }
