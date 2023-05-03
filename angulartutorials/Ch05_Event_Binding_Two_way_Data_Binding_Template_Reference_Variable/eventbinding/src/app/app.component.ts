@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'eventbinding';
+  name="I am 2 way data binding example";
 }
